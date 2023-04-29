@@ -1,0 +1,71 @@
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-right: 30px;
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.99984 11.415L2.29284 7.70799C1.90284 7.31799 1.90284 6.68399 2.29284 6.29399C2.68384 5.90399 3.31784 5.90399 3.70784 6.29399L6.99984 9.58599L10.2938 6.29399C10.6838 5.90399 11.3178 5.90399 11.7078 6.29399C12.0988 6.68399 12.0988 7.31799 11.7078 7.70799L7.99984 11.415V11.415Z' fill='%23333'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+  }
+  
+  .col-md-8 {
+    margin-bottom: 20px;
+    width: calc(33.33% - 10px);
+  }
+  
+  .form-control {
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    display: block;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0069d9;
+  }
+  
+  .form-submit {
+    text-align: center;
+  }
+  
